@@ -1,0 +1,101 @@
+report_id,country,serious,drug_name,reaction
+5801206-7,Unknown,Serious,DURAGESIC-100,DRUG ADMINISTRATION ERROR
+10003300,Unknown,Serious,BONIVA,Vomiting
+10003301,Unknown,Serious,IBUPROFEN,Dyspepsia
+10003302,US,Not Serious,LYRICA,Drug ineffective
+10003304,US,Not Serious,DOXYCYCLINE HYCLATE,Drug hypersensitivity
+10003305,US,Not Serious,LIPITOR,Drug hypersensitivity
+10003306,US,Not Serious,LETAIRIS,Cough
+10003307,US,Not Serious,LETAIRIS,Rhinorrhoea
+10003308,US,Not Serious,LETAIRIS,Unevaluable event
+10003309,US,Not Serious,LETAIRIS,Hepatic enzyme increased
+10003310,US,Not Serious,LYRICA,Back pain
+10003311,US,Serious,LETAIRIS,Oedema peripheral
+10003312,US,Serious,ILARIS,Pneumonia
+10003313,US,Not Serious,LETAIRIS,Swelling
+10003314,US,Not Serious,LETAIRIS,Back pain
+10003315,US,Serious,RANOLAZINE,Death
+10003316,US,Not Serious,LETAIRIS,Oedema
+10003317,US,Serious,BENLYSTA,Angioedema
+10003318,BR,Serious,BELIMUMAB,Tuberculosis of central nervous system
+10003319,US,Serious,BENLYSTA,Cholecystectomy
+10003320,US,Not Serious,TYVASO,Headache
+10003321,JP,Serious,ACETAMINOPHEN.,Adenoviral haemorrhagic cystitis
+10003322,US,Not Serious,LETAIRIS,Tremor
+10003323,US,Not Serious,PRADAXA,Fall
+10003324,US,Not Serious,LETAIRIS,Malaise
+10003325,US,Serious,LETAIRIS,Swelling
+10003326,CN,Serious,CEFTRIAXONE,Meconium stain
+10003327,CN,Serious,PREDNISONE,Respiratory failure
+10003328,ES,Serious,PACLITAXEL,Type IV hypersensitivity reaction
+10003329,IT,Serious,PARACETAMOLO,Diarrhoea
+10003330,US,Not Serious,LETAIRIS,Feeling abnormal
+10003331,GB,Serious,MIRENA,Chemical poisoning
+10003332,US,Not Serious,PRADAXA,Proctalgia
+10003333,US,Not Serious,LETAIRIS,Swelling
+10003334,US,Not Serious,SPIRIVA,Dry mouth
+10003335,US,Serious,LETAIRIS,Localised oedema
+10003336,US,Serious,JANUMET,Metastases to spine
+10003337,US,Not Serious,LETAIRIS,Dysphonia
+10003338,IT,Serious,KLACID,Swollen tongue
+10003339,US,Not Serious,LETAIRIS,Anaemia
+10003340,CN,Serious,PREDNISONE,Listeriosis
+10003341,US,Not Serious,LETAIRIS,Dizziness
+10003342,US,Serious,TASIGNA,Overdose
+10003343,US,Not Serious,LETAIRIS,Liver function test abnormal
+10003344,US,Not Serious,LETAIRIS,Headache
+10003345,FR,Serious,CITALOPRAM,Haematoma
+10003346,US,Not Serious,LETAIRIS,Dyspnoea
+10003347,US,Serious,MIRENA,Device dislocation
+10003348,US,Not Serious,OXYGEN.,Epistaxis
+10003349,US,Serious,MORPHINE SULFATE EXTENDED-RELEASE TABLETS (RHODES 74-862),Cerebrovascular accident
+10003350,US,Not Serious,LETAIRIS,Malaise
+10003351,GB,Serious,MIRTAZAPINE (UNKNOWN),Aggression
+10003352,US,Not Serious,LETAIRIS,Oedema peripheral
+10003353,US,Not Serious,CASODEX,Dyspnoea
+10003354,US,Serious,LETAIRIS,Haemoglobin decreased
+10003355,US,Not Serious,CASODEX,Heart rate decreased
+10003356,US,Not Serious,LETAIRIS,Oedema peripheral
+10003357,US,Serious,TACROLIMUS (WATSON LABORATORIES),Posterior reversible encephalopathy syndrome
+10003358,US,Not Serious,LETAIRIS,Dyspnoea
+10003359,GB,Serious,DOXYCYCLINE,Erection increased
+10003360,US,Not Serious,LETAIRIS,Hypertension
+10003361,GB,Serious,CITALOPRAM (UNKNOWN),Hyponatraemia
+10003362,US,Not Serious,LETAIRIS,Gastric disorder
+10003363,US,Not Serious,LETAIRIS,Unevaluable event
+10003364,US,Not Serious,ADCIRCA,Drug hypersensitivity
+10003365,US,Not Serious,LETAIRIS,Oedema
+10003366,US,Not Serious,LETAIRIS,Oedema
+10003367,US,Not Serious,LETAIRIS,Unevaluable event
+10003368,US,Not Serious,LETAIRIS,Pollakiuria
+10003369,US,Not Serious,LETAIRIS,Feeling abnormal
+10003370,US,Not Serious,LETAIRIS,Swelling
+10003371,US,Not Serious,LETAIRIS,Nasal congestion
+10003372,US,Not Serious,LETAIRIS,Nausea
+10003373,US,Not Serious,LETAIRIS,Nasal congestion
+10003375,CN,Serious,PREDNISONE,Loss of consciousness
+10003376,US,Not Serious,CASODEX,Diarrhoea
+10003377,US,Not Serious,LETAIRIS,Malaise
+10003378,US,Not Serious,LETAIRIS,Dyspnoea
+10003379,US,Not Serious,LETAIRIS,Nasopharyngitis
+10003380,US,Not Serious,LETAIRIS,Respiratory tract infection
+10003381,US,Not Serious,LETAIRIS,No therapeutic response
+10003382,US,Not Serious,LETAIRIS,Blood count abnormal
+10003383,US,Not Serious,LETAIRIS,Unevaluable event
+10003384,US,Not Serious,LETAIRIS,Unevaluable event
+10003385,US,Not Serious,LETAIRIS,Dyspnoea exertional
+10003386,US,Serious,LETAIRIS,Fluid retention
+10003387,US,Not Serious,LETAIRIS,Cellulitis
+10003388,US,Not Serious,LETAIRIS,Dyspnoea
+10003389,US,Not Serious,LETAIRIS,Hepatic enzyme decreased
+10003390,US,Not Serious,LETAIRIS,Headache
+10003391,US,Not Serious,LETAIRIS,Dyspnoea
+10003392,CA,Serious,RAMIPRIL.,Subdural haematoma
+10003393,US,Not Serious,LETAIRIS,Peripheral swelling
+10003394,US,Not Serious,LETAIRIS,Dyspnoea exertional
+10003395,US,Not Serious,DEPAKOTE,Tremor
+10003396,US,Not Serious,LETAIRIS,Unevaluable event
+10003397,IT,Serious,CITALOPRAM ORAL SOLUTION,Sopor
+10003398,GB,Serious,DONEPEZIL,"Hallucination, visual"
+10003399,US,Not Serious,LETAIRIS,Headache
+10003400,US,Not Serious,LETAIRIS,Hot flush
