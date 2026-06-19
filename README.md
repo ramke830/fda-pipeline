@@ -1,10 +1,9 @@
-# FDA Drug Adverse Events BI Pipeline
-
 # FDA Drug Adverse Events — BI Pipeline
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-336791)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+![Schedule](https://img.shields.io/badge/Schedule-Daily%2008%3A00-orange)
 
 **Course:** MADSC301 — Business Intelligence  
 **Student:** Ramakrishna Lavoori | **ID:** 25056894  
@@ -21,29 +20,26 @@ Analyzing FDA adverse drug event reports to identify which drugs cause the most 
 
 | Area | Technology |
 |------|------------|
-| Data source | OpenFDA API |
+| Data source | OpenFDA API (free, no key required) |
 | Programming language | Python 3.11 |
 | Data cleaning | Pandas and NumPy |
 | Development environment | Jupyter Notebook + VS Code |
 | Database | PostgreSQL 18 |
 | Database administration | pgAdmin 4 |
 | Database connection | psycopg2 + SQLAlchemy |
-| Orchestration | pipeline.py + Windows Task Scheduler |
+| Orchestration | pipeline.py + Windows Task Scheduler (daily 08:00) |
 | Visualisation | Matplotlib + Seaborn |
 | Version control | Git and GitHub |
 
 ---
 
 ## Pipeline Architecture
+
 OpenFDA API → collect.py → clean.py → PostgreSQL → visualize.py → Dashboard
 
 ↑
 
 pipeline.py (orchestrator)
-
----
-
-## Project Folder Structure
 
 fda_pipeline/
 
@@ -91,7 +87,6 @@ fda_pipeline/
 
 └── README.md
 
-
 ---
 
 ## Dashboard Results
@@ -101,7 +96,7 @@ fda_pipeline/
 | Total records collected | 100 |
 | Unique drugs | 89 |
 | Unique reactions | 67 |
-| Most reported drug | LETAIRIS |
+| Most reported drug | LETAIRIS (168 reports) |
 | Most common reaction | Dyspnoea |
 | Serious events | 34% |
 | Not serious events | 66% |
@@ -126,9 +121,9 @@ fda_pipeline/
 
 ## Key Insights
 
-1. LETAIRIS dominates with the highest adverse event reports
+1. LETAIRIS dominates with 168 adverse event reports — far above all others
 2. 66% of events were Not Serious — but 34% Serious represents real patient harm
-3. Dyspnoea is the most common reaction — needs clinical attention
+3. Dyspnoea is the most common reaction — needs urgent clinical attention
 4. Many reports lack country data — global reporting gap exists
 5. PREDNISONE, RANOLAZINE and BENLYSTA had 100% serious event rates
 
@@ -138,9 +133,28 @@ fda_pipeline/
 
 1. Health regulators should closely monitor LETAIRIS prescriptions
 2. Dyspnoea as top reaction warrants urgent clinical attention
-3. Improve global reporting to capture country data
+3. Improve global reporting systems to capture country data
 4. Schedule daily pipeline runs to track new adverse events
-5. Expand dataset to 1000+ records for deeper analysis
+5. Expand dataset to 1000+ records for deeper trend analysis
+
+---
+
+## Workflow Scheduling
+
+The pipeline is automated using **Windows Task Scheduler** to run daily at **08:00 AM**.
+
+| Setting | Value |
+|---------|-------|
+| Task Name | FDA_BI_Pipeline |
+| Schedule | Daily |
+| Run Time | 08:00 AM |
+| Script | scripts/run_pipeline.bat |
+| Status | Ready |
+
+To verify the scheduled task:
+```bash
+schtasks /query /tn "FDA_BI_Pipeline"
+```
 
 ---
 
@@ -176,7 +190,7 @@ jupyter notebook notebooks/fda_analysis.ipynb
 ## Security
 - Credentials stored in `.env` file
 - `.env` and `venv/` excluded via `.gitignore`
-- PostgreSQL password not in repository
+- PostgreSQL password not included in repository
 
 ---
 
@@ -184,6 +198,7 @@ jupyter notebook notebooks/fda_analysis.ipynb
 1. Dataset limited to 100 records per API call
 2. Some reports lack country information
 3. Drug names may have spelling variations
+4. API results may change between extraction times
 
 ---
 
@@ -192,6 +207,7 @@ jupyter notebook notebooks/fda_analysis.ipynb
 - Add machine learning for reaction prediction
 - Docker containerisation
 - Email notifications for pipeline failures
+- Cloud database deployment
 
 ---
 
